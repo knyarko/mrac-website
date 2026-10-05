@@ -1,0 +1,54 @@
+{
+  "title": "Maryland Responsible AI Council (MRAC)",
+  "tagline": "Ethical AI for the State of Maryland",
+  "address": "100 Community Place, Crownsville, MD 21032",
+  "phone": "1-877-634-6361",
+  "intro": "The Maryland Responsible AI Council (MRAC) will offer expert advice on artificial intelligence and related technologies to ensure their responsible development and deployment within the State of Maryland.",
+  "council_will": [
+    "Offer guidance to State agencies on AI advancements and their potential applications in Maryland.",
+    "Develop recommendations for the ethical and effective use of AI technologies by and within the State across various sectors to increase awareness regarding AI within the general public and to better prepare Maryland’s workforce to use AI responsibly and equitably.",
+    "Propose improvements to AI-driven decision-making systems used by state agencies.",
+    "Assist in developing a comprehensive framework for addressing ethical considerations in emerging technologies.",
+    "Make recommendations on the use and role of AI in education at all levels to enhance learning outcomes."
+  ],
+  "key_areas": [
+    {
+      "title": "AI In Practice",
+      "items": [
+        "Public sector (procurement, service delivery, etc.)",
+        "Agriculture (regenerative farming, etc.)",
+        "Transportation (roads, rails, airports, bridges, tunnels, drones, autonomous vehicles)",
+        "Infrastructure (AI-related)",
+        "Education and workforce development",
+        "Housing",
+        "Law and society (legal, law, criminal, social systems, civics)",
+        "Healthcare",
+        "Employment, hiring, and workforce impacts",
+        "Business and finance",
+        "Environment"
+      ]
+    },
+    {
+      "title": "Responsible AI",
+      "items": [
+        "Ethics, equity, safety, trustworthiness",
+        "Explainability and transparency",
+        "Accessibility",
+        "Testing, evaluation, verification, and validation (TEVV)",
+        "Sustainable AI",
+        "Accountability",
+        "Preventing abuse and misuse",
+        "Privacy-preserving AI"
+      ]
+    },
+    { "title": "Innovation, Research, And Implementation", "items": [] },
+    { "title": "AI Governance And Regulatory Frameworks", "items": [] },
+    { "title": "Privacy And Security", "items": [] },
+    { "title": "Economic Impact", "items": [] }
+  ],
+  "meetings": [],
+  "recommendations": [
+    { "title": "Enhancing AI Literacy for the United States of America", "date": "November 2023", "url": "" },
+    { "title": "Improve Monitoring of Emerging Risks from AI through Adverse Event Reporting", "date": "November 2023", "url": "" }
+  ]
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "slug": "kofi-nyarko",
+    "name": "Kofi Nyarko",
+    "affiliation": "Morgan State University",
+    "role": "Chair",
+    "group": "founding",
+    "image": "assets/img/members/kofi-nyarko.jpg",
+    "bio": [
+      "Dr. Kofi Nyarko is a tenured Professor in the Department of Electrical and Computer Engineering at Morgan State University, a premier HBCU and R2 research institution. He is the founding Director of the Center for Equitable Artificial Intelligence and Machine Learning Systems (CEAMLS), a multidisciplinary research hub committed to advancing responsible and inclusive AI development. Under his leadership, CEAMLS has become nationally recognized for pioneering research, outreach, and capacity building aimed at ensuring AI technologies are designed and deployed with equity and social impact in mind.",
+      "As Director of CEAMLS, Dr. Nyarko organizes the annual International Symposium on Equitable AI, which brings together thought leaders in policy, academia, and industry. He plays an active role in state-level AI strategy as a member of the Maryland Responsible AI Council (MRAC), advising on public-sector AI deployment and data governance.",
+      "Dr. Nyarko’s commitment to education and workforce development extends beyond research and policy. He has developed inclusive AI curricula at the undergraduate and graduate levels, co-leads the Summer AI Research Institute for high school teachers and undergraduates, and supports cross-institutional mentoring through private and public funding initiatives.",
+      "Dr. Nyarko is the recipient of the 2020 US Black Engineer HBCU STEM Innovation Award, honoring his contributions to STEM innovation and institutional development. A frequent speaker, evaluator, and consultant, he has presented nationally on AI ethics, autonomous systems, and equity in technology innovation. He continues to serve as a mentor, advocate, and trailblazer in creating pathways for underrepresented scholars in AI and data science.",
+      "Dr. Nyarko also directs the Data Engineering and Predictive Analytics (DEPA) Research Lab, where his research spans computer vision, neurosymbolic machine learning, multimodal AI, and generative models. His work bridges fundamental research and real-world application, including the use of AI in unmanned aerial and ground systems for remote sensing, autonomous navigation, infrastructure monitoring, and traffic coordination. He has also contributed to advancements in visible light communication and biologically inspired optimization, earning three U.S. patents in those areas.",
+      "A core aspect of Dr. Nyarko’s research portfolio is developing AI tools that enhance decision-making under uncertainty. He is currently advancing efforts in neurosymbolic AI frameworks that integrate probabilistic reasoning with symbolic representations to support robotic autonomy, explainability, and real-time response in dynamic environments. He also leads or contributes to projects funded by NSF, NIH, and DoD, including efforts to assess AI fairness, measure cultural representation in foundation models, and evaluate responsible AI integration in digital infrastructure for underserved communities."
+    ]
+  },
+  {
+    "slug": "james-foulds",
+    "name": "James Foulds",
+    "affiliation": "University of Maryland Baltimore County",
+    "role": "Vice Chair",
+    "group": "founding",
+    "image": "assets/img/members/james-foulds.jpg",
+    "bio": [
+      "James Foulds is an Associate Professor in the Department of Information Systems at the University of Maryland, Baltimore County (UMBC). His research is dedicated to the critical area of socially conscious machine learning and artificial intelligence, with a focus on enhancing AI’s role in society by addressing fairness and privacy concerns. He also champions the practice of computational social science, often employing probabilistic models and Bayesian inference in his work.",
+      "Before joining UMBC, Dr. Foulds was a postdoctoral scholar at the University of California, San Diego, as part of the Data Science Postdoctoral Fellowship program. This program was jointly sponsored by ITA, Calit2, the Qualcomm Institute, CSE, and ECE. Prior to that, he held a postdoctoral scholar position in Lise Getoor’s LINQS research group at the University of California, Santa Cruz. He earned his degree from Padhraic Smyth’s DataLab group at the University of California, Irvine."
+    ]
+  },
+  {
+    "slug": "gabriella-waters",
+    "name": "Gabriella Waters",
+    "affiliation": "Virginia State University",
+    "role": "",
+    "group": "founding",
+    "image": "assets/img/members/gabriella-waters.png",
+    "bio": [
+      "Gabriella Waters is an artificial intelligence researcher who serves as the Director of the Center for Responsible AI, Director of the Cognitive and Neurodiversity AI Lab, and the Robotics and Digital Twin Lab at Virginia State University. She is a founding member of the Maryland Responsible AI Council and an AI policy advisor at state, federal, and international levels. Gabriella has served as a research associate at NIST in the AI Innovation Lab, where she led AI testing and evaluation efforts for the ARIA project.",
+      "Gabriella is committed to increasing the diversity of thought in technology and advocates for interdisciplinary collaborations to advance innovation, responsibility, explainability, transparency, and ethics in AI development and application. Her research explores the intersections of human neurobiology & learning, the quantification of ethics in AI/ML systems, neuro-symbolic architectures, embodied AI, and the design of intelligent systems that leverage these foundations for enhanced human-computer synergy. She is especially focused on developing technological innovations that support neurodiverse populations."
+    ]
+  },
+  {
+    "slug": "tim-finin",
+    "name": "Tim Finin",
+    "affiliation": "University of Maryland Baltimore County",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/tim-finin.jpg",
+    "bio": [
+      "Tim Finin is the Willard and Lillian Hackerman Chair in Engineering, the Director of the UMBC Center for Artificial Intelligence, and a Computer Science and Electrical Engineering professor at the University of Maryland, Baltimore County (UMBC). He has over 50 years of experience applying AI to problems in information systems and language understanding. His current research focuses on representing and reasoning with knowledge graphs, analyzing and extracting information from text, and enhancing security and privacy in information systems. He is an ACM fellow, an AAAI fellow, and an IEEE technical achievement award recipient. He was selected as the UMBC Presidential Research Professor in 2012. Finin received an S.B. degree in Electrical Engineering from MIT and a Ph.D. in Computer Science from the University of Illinois at Urbana-Champaign. He has held positions at UMBC, Unisys, the University of Pennsylvania, Johns Hopkins University, and the MIT AI Laboratory. He has chaired the UMBC Computer Science department, served on the Computing Research Association board of directors, been a AAAI councilor, and chaired many major research conferences. He is a former editor-in-chief of the Elsevier Journal of Web Semantics."
+    ]
+  },
+  {
+    "slug": "peter-viechnicki",
+    "name": "Peter Viechnicki",
+    "affiliation": "",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/peter-viechnicki.jpg",
+    "bio": [
+      "Dr. Peter Viechnicki is a pioneer in the development of capabilities and the management of personnel in the areas of natural language processing, machine learning, and data science techniques. Dr. Viechnicki began his career in the Federal Government, where he helped government agencies solve some of their hardest human language technology problems.",
+      "During his stint in the private sector, Dr. Viechnicki built NLP systems and managed the efforts of the research teams and system integration. Some of his notable projects include applying text classification to 1.5 billion emails to enable highly efficient response to information requests and developing a multilingual fuzzy biographic search tool for decision support.",
+      "Dr. Viechnicki has received numerous citations during his career, including the Distinguished Civilian Service Award. Peter received his doctorate in Linguistics from the University of Chicago, specializing in Phonetics and Phonology under Howard Nusbaum, Karen Landahl, and Ken De Jong. His dissertation demonstrated a new experimental paradigm for measuring flexibility during vowel production."
+    ]
+  },
+  {
+    "slug": "terri-hill",
+    "name": "Terri L. Hill",
+    "affiliation": "",
+    "role": "Delegate",
+    "group": "council",
+    "image": "assets/img/members/terri-hill.jpg",
+    "bio": [
+      "Maryland State Delegate Terri Hill, M.D. is a practicing, board-certified plastic surgeon who has served in the Maryland General Assembly since 2015. As the only licensed, practicing physician in the House, she serves on the Health Committee as chair of the Public Health and Minority Health Disparities Subcommittee and member of the Elderly & Long-term Care and the Maternal & Fetal Health Subcommittees.",
+      "From 2015-2025 she was a member of the Health and Government Operations Committee, with stints on the Public Health and Minority Health Disparities; Government Operations and Health Facilities; Insurance, Health Facilities and Pharmaceuticals; Health Facilities and Health Occupations; Government Operations and Estates & Trusts; and Estates and Trusts subcommittees.",
+      "In 2025, she was appointed by the House Speaker to the Joint Committee on Cybersecurity, Information Technology, and Biotechnology, and she has held continuing appointments on the Maryland Cannabis Public Health Advisory Council since 2023 and the Maryland State Advisory Council on Hereditary and Congenital Disorders since 2022. She was appointed to the Commission to Advance Next Generation 911 Across Maryland from 2021 until its completion of assignment at the end of 2022. Previous policy service assignments include the Maryland Attorney General’s COVID-19 Access to Justice Task Force and the Maryland House Justice Reinvestment, Affordable Care Act, and Death with Dignity Workgroups. She is the current treasurer of the Speaker’s Society.",
+      "Legislative memberships include the Howard County Delegation (former House Chair), Maryland Legislative Black Caucus, The Women Legislators of Maryland (Past Parliamentarian), Maryland Legislative Latino Caucus Associate Member, Maryland Jewish Caucus Associate Member, and LGTBQA+ Caucus Associate Member. From 2015-2022 she was a member of the Baltimore County Delegation (Legislative Bond Initiative Subcommittee Chair).",
+      "Delegate Hill earned her Bachelor’s in bioelectric engineering from Harvard University; her medical degree from Columbia University (Vagelos) College of Physicians and Surgeons; her general surgery and plastic and reconstructive surgery internship and residencies at New York-Presbyterian/Columbia University Irving Medical Center (née Columbia-Presbyterian Medical Center); and completed a craniofacial fellowship at the University of Miami. She has been in solo practice since 1991.",
+      "Boards",
+      "Board of Directors, Columbia Center for Theatrical Arts, 2021– ; Board of Directors, American Red Cross, Central Maryland Chapter, 1997–2003 (Emergency Services Committee); Board of Directors, Harvard Cooperative Society, 1977–1981 (Charitable Contributions Committee)",
+      "Awards",
+      "2024 Legislative Award, Maryland Neurosurgical Society; 2021 Howard County Women’s Giving Circle SHeroes; 2020 Advocate of the Year, Maryland League of Conservation Voters; 2020 Howard County Women’s Hall of Fame; Honorary Member, Omega Beta Iota, Osteopathic Political Honor Society, 2019; Health Promotion Achievement Award, Alpha Kappa Alpha Sorority, Inc., North Atlantic Region, 2017; Legislator Award, Medical and Chirurgical Society of Maryland (MedChi), 2017; Legislator of the Year, Maryland Association of Eye Physicians, 2016; Women on the Move Award, Small Business, Associated Black Charities, Baltimore, MD, 2015; Women in Medicine Award, Iota Phi Lambda Sorority, Baltimore Chapter, 2015; Mother Mary Lange Leadership Award, Archdiocese of Baltimore, 2012; Community Service Award, Columbia, Phi Beta Sigma Fraternity, Inc., Columbia, MD, 2009; Outstanding Professional Achievement Spirit Award, Alpha Kappa Alpha Sorority, Columbia, MD Chapter, 2004; Tribute to Excellence Award, Baltimore Black Women’s Leadership Conference, 2003; Distinguished Black Marylander, Towson University, Towson, MD, 2001; Baltimore AFRAM Salute: “Hope for Tomorrow,” 1992; Aura E. Severinghaus Scholar, National Medical Fellowships, Inc. (Outstanding Academic Achievement, Leadership, and Community Service), 1985; Class Marshall, Harvard and Radcliffe Colleges; Dean’s List, Harvard and Radcliffe Colleges; Honoree, Salute to Outstanding Young Women, Alpha Kappa Alpha Sorority, Baltimore, MD Chapter, 1979; National Merit Finalist.",
+      "Public and Service",
+      "Moderator, N.O.B.E.L Women Annual Legislative Conference panel on Health Equity, 2022; 2023 National Medical Association Region II Annual Conference – Panelist, “Transitioning from the Exam Room to the Board Room (Post-pandemic): The health of Our Physicians and Community: Where Do We Go From Here); Guest—Sirius XM’s The Dr. Show, 2022; The Public Leadership Institute Annual State Strategy Forum, Panel on Healthcare and Prescription Drug Legislation, 2019; Alzheimer’s Association 15th Annual Pythias A. and Virginia I. Jones African American Community Form on Memory Loss, 2019; “Hot Topics in Public Health,” Johns Hopkins Center for Diversity in Leadership in Public Health Leadership, 2019; Black Women’s Agenda and AARP “I Am The Change: Living Your Best Life at Every Age” Summit, 2018; Local Engagement for Equity in Public Health Policy, Johns Hopkins Bloomberg School, 2018; PlayMore! Building Healthy Communities through Youth Sports: Risk Management and Policy Development Panel, 2018; “Sport-related Brain Trauma Head O”: A Film Screening & Panel Discussion, George Washington University School of Business, 2018; Travis Smiley Presents—ROAD to HEALTH, Health Fitness and Wellness Expo”; Guest appearances: CBS Radio, “The Back Room” and “92 Q The Big Phat Morning Show”; Guest appearances in programs sponsored by Monumental Medical Society, Student National Medical Associations, the University of Maryland Medical School and; Johns Hopkins University, Morgan State University, Coppin State College, Office of Baltimore Mayor Shelia Dixon; The American Cancer Society; Panelist, Johns Hopkins University Symposium on Scientifically and Mathematically Precocious Youth; Maryland Commission on Women, “Women of Tomorrow” Awards, Selection Committee, 2005-2006; American Red Cross of Central Maryland, Board of Directors, Emergency Services Committee, 1997-2003; Operation Smile, Mission Surgeon: China (2004); Venezuela (1995 & 1998); Baltimore (1996-1999, 1996-2004); Camp About Face (for children with facial deformities), Counselor, 1999; Vision Howard County, 1999; Columbia College of Physicians and Surgeons Financial Aid Committee, 1981-1985; St. Bernadine Roman Catholic Church – Lector, Bible Study Leader, past Pastoral Council member, and past Corporator.",
+      "Memberships",
+      "American Society of Plastic and Reconstructive Surgeons; Maryland State Medical Society (MedChi); John Stage Davis Society (past secretary); National Medical Association; Webster Society; Howard and Anne Arundel County Medical Societies; American Medical Association; American Medical Women’s Association; St. Bernadine Roman Catholic Church; Thurgood Marshal Democratic Club; Columbia Democratic Club; Southwest Baltimore County Democratic Club; League of Women Voters, Howard County; National Organization for Women; National (Political) Congress of Black Women, Howard County Chapter; The Scarborough Association (HOA); Alpha Kappa Alpha Sorority, Howard County Chapter, 2003-present."
+    ]
+  },
+  {
+    "slug": "kevin-wynne",
+    "name": "Kevin T. Wynne",
+    "affiliation": "University of Baltimore",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/kevin-wynne.jpg",
+    "bio": [
+      "Kevin T. Wynne, Ph.D., is an Associate Professor of Management in the Merrick School of Business at the University of Baltimore. Dr. Wynne teaches university courses on organizational behavior, leadership, HR, and AI. He also conducts research relating to various workplace phenomena. The overarching goal of his research is to enhance employee well-being and effectiveness. His interests fall into three primary domains: a) human-AI collaboration, b) supportive leadership, and c) the work-nonwork interface.",
+      "Previously, Dr. Wynne was a postdoctoral research fellow at the U.S. Air Force Research Laboratory in Dayton, OH (Wright-Patterson Air Force Base), serving the Human Insight & Trust Team, RXHS (Human Interaction & Trust) Branch (Airman Systems Directorate, 711 Human Performance Wing), where he conducted research on human-machine teaming. He has prior industry and external consulting experience, particularly in the areas of assessment, selection, data analysis, applied research, and talent management. Dr. Wynne conducted applied research and developed interactive assessments in Testing and Assessment Design (R&D) at Development Dimensions International (DDI) in Pittsburgh, and then subsequently was an HR selection/testing consultant with APTMetrics at their Chicago field office. Prior to joining DDI, Dr. Wynne worked in Talent Development at Sodexo North America, and in Organization and Leadership Development at Lockheed Martin Aeronautics in Fort Worth, TX. Dr. Wynne earned his PhD in industrial/organizational psychology from Wayne State University.",
+      "Dr. Wynne graduated Cum Laude with a BA in psychology from The Ohio State University, and he holds master’s degrees from Wayne State University and Mays Business School at Texas A&M University."
+    ]
+  },
+  {
+    "slug": "sherif-elsafty",
+    "name": "Sherif Elsafty",
+    "affiliation": "VisionEighty Consulting LLC",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/sherif-elsafty.jpg",
+    "bio": [
+      "Sherif Elsafty is the Founder and CEO of VisionEighty Consulting LLC, specializing in AI and machine learning implementations across industries. With a M.S. in Engineering Management from the University of Maryland, Baltimore County, and executive education from MIT Sloan School of Management, he brings extensive experience in AI, data science, systems engineering, strategy, and project management.",
+      "His work spans the AI implementation lifecycle—from strategy to delivery—helping organizations integrate AI while maintaining responsible practices. He is particularly interested in developing practical responsible AI frameworks and robust AI governance models that can be applied across sectors.",
+      "He is an Adjunct Professor at Capitol Technology University and University of Maryland, Baltimore County. On the Maryland Responsible AI Council, he contributes expertise to help shape Maryland’s responsible AI future."
+    ]
+  },
+  {
+    "slug": "najam-hassan",
+    "name": "Najam Hassan",
+    "affiliation": "Capitol Technology University",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/najam-hassan.jpg",
+    "bio": [
+      "A results-driven seasoned IT professional with extensive experience across various industries, delivering high-performance infrastructures and innovative solutions at leading organizations. Expertise in designing and implementing cost-effective, scalable IT architectures and applications to solve complex business challenges. Proven track record in developing policies, overseeing the complete project lifecycle—from feasibility and conceptual design to deployment, user training, and continuous improvement.",
+      "Currently serving as Department Chair and Adjunct Professor in Computer and Data Science, bringing industry knowledge into academia to shape future leaders in technology. Actively involved in curriculum development, leading academic programs, and mentoring students in AI, data science, and computer science.",
+      "A dynamic leader with strong global project management expertise, adept at building, transforming, and leading creative, highly organized teams. Known for delivering projects on time and within budget while driving innovation and operational excellence.",
+      "Specialties:",
+      "– Ph.D. in Business Analytics & Decision Sciences, MS in Computer Science, MBA, and MIM",
+      "– Certified Project Management Professional (PMP)",
+      "– Certified Information Systems Auditor (CISA)",
+      "– Six Sigma Green Belt Certification",
+      "– IT Organization & Management",
+      "– Technical Project & Operations Management",
+      "– IT Architecture & Integration",
+      "– Academic Leadership & Curriculum Development",
+      "– Mentorship and Student Development in AI and Data Science"
+    ]
+  },
+  {
+    "slug": "edward-raff",
+    "name": "Edward Raff",
+    "affiliation": "Booz Allen Hamilton",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/edward-raff.png",
+    "bio": [
+      "Dr. Raff is the Director of Emerging AI at Booz Allen Hamilton, where he leads the firm’s machine learning research group. His work involves government and commercial needs that cannot be satisfied by existing solutions, requiring domain understanding combined with technical insight and invention. Dealing with problems in healthcare, finance, cybersecurity, and national security, these issues often involve active and motivated adversaries who seek to subvert or compromise solutions, making robustness and security in solutions a requirement for efficacy. Dr. Raff’s work has led to over 125 peer-reviewed articles, six Best Paper awards, and elevation to Senior Member status in the IEEE and AAAI professional communities."
+    ]
+  }
+]
