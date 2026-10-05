@@ -1,6 +1,7 @@
 {
   "title": "Maryland Responsible AI Council (MRAC)",
   "tagline": "Ethical AI for the State of Maryland",
+  "headline": "Expert guidance for the responsible use of AI across Maryland",
   "intro": "The Maryland Responsible AI Council (MRAC) will offer expert advice on artificial intelligence and related technologies to ensure their responsible development and deployment within the State of Maryland.",
   "council_will": [
     "Offer guidance to State agencies on AI advancements and their potential applications in Maryland.",
@@ -24,7 +25,8 @@
         "Employment, hiring, and workforce impacts",
         "Business and finance",
         "Environment"
-      ]
+      ],
+      "icon": "building-community"
     },
     {
       "title": "Responsible AI",
@@ -37,23 +39,28 @@
         "Accountability",
         "Preventing abuse and misuse",
         "Privacy-preserving AI"
-      ]
+      ],
+      "icon": "scale"
     },
     {
       "title": "Innovation, Research, And Implementation",
-      "items": []
+      "items": [],
+      "icon": "bulb"
     },
     {
       "title": "AI Governance And Regulatory Frameworks",
-      "items": []
+      "items": [],
+      "icon": "gavel"
     },
     {
       "title": "Privacy And Security",
-      "items": []
+      "items": [],
+      "icon": "shield-lock"
     },
     {
       "title": "Economic Impact",
-      "items": []
+      "items": [],
+      "icon": "chart-line"
     }
   ],
   "meetings": [],
@@ -68,5 +75,19 @@
       "date": "November 2023",
       "url": ""
     }
-  ]
+  ],
+  "photos": {
+    "hero": {
+      "src": "assets/img/hero-state-house.jpg",
+      "alt": "The Maryland State House in Annapolis framed by autumn trees",
+      "credit": "Terry Granger",
+      "credit_url": "https://unsplash.com/photos/ykrTHE8kwWk"
+    },
+    "band": {
+      "src": "assets/img/band-lighthouse.jpg",
+      "alt": "The red Seven Foot Knoll lighthouse on Baltimore's harbor",
+      "credit": "Gang Hao",
+      "credit_url": "https://unsplash.com/photos/uVY6GKufO1w"
+    }
+  }
 }
