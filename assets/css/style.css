@@ -126,7 +126,6 @@ section.tinted, #recommendations { padding: 72px 0; }
 .footer-nav a { color: var(--white); text-decoration: none; font-size: 15px; font-weight: 400; padding: 6px 14px; display: block; }
 .footer-nav a:hover { color: var(--gold); }
 .site-footer a { color: var(--white); }
-.address { font-weight: 400; font-size: 16px; margin: 0 0 8px; }
 .copyright { font-size: 14px; opacity: .8; margin: 0; }
 
 /* Responsive */

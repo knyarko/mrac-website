@@ -6,7 +6,7 @@ Static rebuild of [marylandresponsibleai.org](https://marylandresponsibleai.org)
 
 All text lives in `content/` — no HTML editing needed for routine updates:
 
-- `content/site.json` — intro, "The Council will" list, key areas, meetings, recommendations, address
+- `content/site.json` — intro, "The Council will" list, key areas, meetings, recommendations
 - `content/members.json` — members (`group` is `founding` or `council`), bios, photo paths
 
 Headshots go in `assets/img/members/`. In a bio, a short line without ending punctuation becomes a heading, and lines starting with `– ` become a bulleted list.

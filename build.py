@@ -79,7 +79,6 @@ def page(title, body, base="", description=None):
     <nav aria-label="Footer"><ul class="footer-nav">
 {nav_links(base)}
     </ul></nav>
-    <p class="address">{e(site["address"])}. <a href="tel:{site["phone"]}">{e(site["phone"])}</a></p>
     <p class="copyright">&copy; <span data-year></span> Maryland Responsible AI Council</p>
   </div>
 </footer>
