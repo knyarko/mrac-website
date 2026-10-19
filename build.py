@@ -202,8 +202,8 @@ def rec_card(r):
 
 def build_index():
     hero, band = site["photos"]["hero"], site["photos"]["band"]
-    will = "".join(f"<li><span class=\"num\">{i:02d}</span><p>{e(x)}</p></li>"
-                   for i, x in enumerate(site["council_will"], 1))
+    charge = "".join(f"<li><span class=\"num\">{i:02d}</span><p>{e(x)}</p></li>"
+                   for i, x in enumerate(site["council_charge"], 1))
 
     def area(i, a):
         items = f'<ul>{"".join(f"<li>{e(x)}</li>" for x in a["items"])}</ul>' if a["items"] else ""
@@ -235,9 +235,9 @@ def build_index():
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Our charge</p>
-      <h2>The Council will</h2>
+      <h2>What the Council does</h2>
     </div>
-    <ol class="charge-list">{will}</ol>
+    <ol class="charge-list">{charge}</ol>
   </div>
 </section>
 
@@ -245,7 +245,7 @@ def build_index():
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Focus</p>
-      <h2>MRAC will focus on the following key areas</h2>
+      <h2>MRAC focuses on the following key areas</h2>
     </div>
     <div class="area-grid">{areas}</div>
   </div>
@@ -319,7 +319,7 @@ def build_meetings():
         )
         meetings = f'<ul class="listing">{meetings}</ul>'
     else:
-        meetings = '<p class="empty">Upcoming meeting dates will be posted here.</p>'
+        meetings = '<p class="empty">Meeting dates are posted here as they are scheduled.</p>'
 
     recs = f'<ul class="listing">{"".join(rec_item(r) for r in site["recommendations"])}</ul>'
     body = f"""
@@ -345,7 +345,7 @@ def build_education():
 {page_hero("Education", "Resources", "")}
 <section class="section">
   <div class="container narrow">
-    <p class="empty">Educational resources from the Council are coming soon.</p>
+    <p class="empty">The Council is developing educational resources on responsible AI.</p>
   </div>
 </section>
 """

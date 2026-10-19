@@ -6,7 +6,7 @@ Static rebuild of [marylandresponsibleai.org](https://marylandresponsibleai.org)
 
 All text lives in `content/` — no HTML editing needed for routine updates:
 
-- `content/site.json` — intro, "The Council will" list, key areas, meetings, recommendations
+- `content/site.json` — intro, "What the Council does" list, key areas, meetings, recommendations
 - `content/members.json` — members (`group` is `founding` or `council`), bios, photo paths
 
 Headshots go in `assets/img/members/`. The header and lighthouse photos are set under `photos` in `site.json` (Unsplash License; credits are shown in the footer). Keep large photos under ~700 KB. In a bio, a short line without ending punctuation becomes a heading, and lines starting with `– ` become a bulleted list.

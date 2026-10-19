@@ -2,13 +2,13 @@
   "title": "Maryland Responsible AI Council (MRAC)",
   "tagline": "Ethical AI for the State of Maryland",
   "headline": "Expert guidance for the responsible use of AI across Maryland",
-  "intro": "The Maryland Responsible AI Council (MRAC) will offer expert advice on artificial intelligence and related technologies to ensure their responsible development and deployment within the State of Maryland.",
-  "council_will": [
-    "Offer guidance to State agencies on AI advancements and their potential applications in Maryland.",
-    "Develop recommendations for the ethical and effective use of AI technologies by and within the State across various sectors to increase awareness regarding AI within the general public and to better prepare Maryland’s workforce to use AI responsibly and equitably.",
-    "Propose improvements to AI-driven decision-making systems used by state agencies.",
-    "Assist in developing a comprehensive framework for addressing ethical considerations in emerging technologies.",
-    "Make recommendations on the use and role of AI in education at all levels to enhance learning outcomes."
+  "intro": "The Maryland Responsible AI Council (MRAC) offers expert advice on artificial intelligence and related technologies to ensure their responsible development and deployment within the State of Maryland.",
+  "council_charge": [
+    "Offers guidance to State agencies on AI advancements and their potential applications in Maryland.",
+    "Develops recommendations for the ethical and effective use of AI technologies by and within the State across various sectors to increase awareness regarding AI within the general public and to better prepare Maryland’s workforce to use AI responsibly and equitably.",
+    "Proposes improvements to AI-driven decision-making systems used by state agencies.",
+    "Assists in developing a comprehensive framework for addressing ethical considerations in emerging technologies.",
+    "Makes recommendations on the use and role of AI in education at all levels to enhance learning outcomes."
   ],
   "key_areas": [
     {
