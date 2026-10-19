@@ -66,14 +66,24 @@
   "meetings": [],
   "recommendations": [
     {
-      "title": "Enhancing AI Literacy for the United States of America",
-      "date": "November 2023",
-      "url": ""
+      "title": "Responsible Use of AI in Maryland Public Benefits Programs",
+      "type": "Policy position",
+      "date": "October 18, 2026",
+      "version": "1.1",
+      "committee": "Public Sector Applications and Government Services Committee",
+      "summary": "Nine safeguards for using AI in benefits administration such as SNAP, Unemployment Insurance, and Medicaid, including independent evaluation, explicit privacy protections, a right to human review, equitable performance across groups, and workforce support.",
+      "url": "assets/docs/policy-positions/mrac-policy-position-ai-public-benefits-v1.1.pdf",
+      "pages": 5
     },
     {
-      "title": "Improve Monitoring of Emerging Risks from AI through Adverse Event Reporting",
-      "date": "November 2023",
-      "url": ""
+      "title": "AI Enabled Identity Fraud and Deepfake Impersonation",
+      "type": "Policy position",
+      "date": "October 18, 2026",
+      "version": "1.1",
+      "committee": "Public Sector and Law, Civil Rights and Society Committees",
+      "summary": "Five recommendations for implementing Maryland's Chapter 445 deepfake law: better access to civil remedies, enforcement-outcome reporting, validated forensic tools, protection of lawful expression, and review of coverage for identifying images and audio.",
+      "url": "assets/docs/policy-positions/mrac-policy-position-ai-identity-fraud-deepfakes-v1.1.pdf",
+      "pages": 4
     }
   ],
   "photos": {

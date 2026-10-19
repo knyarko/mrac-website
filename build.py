@@ -167,10 +167,37 @@ def page_hero(title, eyebrow, base):
 </section>"""
 
 
-def rec_item(r):
+def pdf_meta(r):
+    bits = [f'PDF, {r["pages"]} pages' if r.get("pages") else "PDF"]
+    if r.get("version"):
+        bits.append(f'v{r["version"]}')
+    return " · ".join(bits)
+
+
+def rec_item(r, base=""):
+    """Full entry on the recommendations page: title links to the document, with summary and committee."""
+    url = f'{base}{r["url"]}' if r.get("url") else ""
     t = e(r["title"])
-    t = f'<a href="{e(r["url"])}">{t}</a>' if r.get("url") else t
-    return f'<li><time>{e(r["date"])}</time><div><strong>{t}</strong></div></li>'
+    t = f'<a href="{e(url)}">{t}</a>' if url else t
+    summary = f'<p>{e(r["summary"])}</p>' if r.get("summary") else ""
+    meta = []
+    if r.get("committee"):
+        meta.append(e(r["committee"]))
+    if url:
+        meta.append(f'<a class="text-link" href="{e(url)}">{icon("file-type-pdf")} Read the position ({pdf_meta(r)})</a>')
+    meta = f'<p class="listing-meta">{" · ".join(meta)}</p>' if meta else ""
+    tag = f'<span class="tag">{e(r["type"])}</span>' if r.get("type") else ""
+    return f'<li><time>{e(r["date"])}</time><div>{tag}<strong>{t}</strong>{summary}{meta}</div></li>'
+
+
+def rec_card(r):
+    href = r.get("url") or "meetings.html#recommendations"
+    return (f'<a class="rec-card" href="{e(href)}"><span class="tag">{e(r.get("type", "Recommendation"))}</span>'
+            f'<strong>{e(r["title"])}</strong>'
+            + (f'<p>{e(r["summary"])}</p>' if r.get("summary") else "")
+            + f'<span class="rec-foot"><time>{e(r["date"])}</time>'
+            + (f'<span>{icon("file-type-pdf")} {pdf_meta(r)}</span>' if r.get("url") else "")
+            + '</span></a>')
 
 
 def build_index():
@@ -185,11 +212,7 @@ def build_index():
                 f'<span class="num">{i:02d}</span></div><h3>{e(a["title"])}</h3>{items}</div>')
 
     areas = "".join(area(i, a) for i, a in enumerate(site["key_areas"], 1))
-    recs = "".join(
-        f'<a class="rec-card" href="meetings.html#recommendations"><span class="tag">Recommendation</span>'
-        f'<strong>{e(r["title"])}</strong><time>{e(r["date"])}</time></a>'
-        for r in site["recommendations"]
-    )
+    recs = "".join(rec_card(r) for r in site["recommendations"])
     founding = "\n".join(member_card(m) for m in members if m["group"] == "founding")
     council = "\n".join(member_card(m) for m in members if m["group"] == "council")
     body = f"""
