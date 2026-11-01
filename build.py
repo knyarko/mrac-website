@@ -16,6 +16,8 @@ ROOT = Path(__file__).parent
 OUT = ROOT / "_site"
 site = json.loads((ROOT / "content/site.json").read_text())
 members = json.loads((ROOT / "content/members.json").read_text())
+committees = json.loads((ROOT / "content/committees.json").read_text())
+PLACEHOLDER = "assets/img/members/placeholder.svg"
 
 e = html.escape
 
@@ -32,6 +34,7 @@ NAV = [
     ("Home", "index.html#home"),
     ("Key Areas", "index.html#key-areas"),
     ("Members", "index.html#members"),
+    ("Committees", "committees.html"),
     ("Recommendations", "meetings.html#recommendations"),
     ("Meetings", "meetings.html#meetings"),
     ("Education", "education.html"),
@@ -159,7 +162,7 @@ def render_bio(lines):
 def page_hero(title, eyebrow, base):
     """Compact photo banner used at the top of inner pages."""
     return f"""
-<section class="page-hero" style="--hero-img: url('{base}{site["photos"]["hero"]["src"]}')">
+<section class="page-hero" style="background-image: linear-gradient(90deg, rgba(40, 8, 16, .92), rgba(80, 14, 30, .78)), url('{base}{site["photos"]["hero"]["src"]}')">
   <div class="container">
     <p class="eyebrow">{e(eyebrow)}</p>
     <h1>{e(title)}</h1>
@@ -285,6 +288,7 @@ def build_index():
     <ul class="member-grid">
 {council}
     </ul>
+    <p class="more-link"><a class="text-link" href="committees.html">Meet the committee members {icon("arrow-right")}</a></p>
   </div>
 </section>
 """
@@ -308,6 +312,37 @@ def build_member(m):
 """
     return page(f'{m["name"]} - Maryland Responsible AI Council', body, base="../",
                 description=m["bio"][0][:160] if m["bio"] else None)
+
+
+def committee_person(p):
+    """Council members link to their bio and reuse its photo; others get the silhouette unless an image is given."""
+    m = next((m for m in members if m["name"] == p["name"]), None)
+    img = p.get("image") or (m["image"] if m else PLACEHOLDER)
+    name = e(p["name"])
+    if m:
+        name = f'<a href="members/{m["slug"]}.html">{name}</a>'
+    return (f'<li class="person"><img src="{img}" alt="" loading="lazy" width="72" height="72">'
+            f'<div><h3>{name}</h3><p class="person-role">{e(p["role"])}</p>'
+            f'<p class="person-aff">{e(p["affiliation"])}</p></div></li>')
+
+
+def build_committees():
+    sections = "".join(f"""
+<section class="committee">
+  <div class="committee-head"><span class="num">{i:02d}</span><h2>{e(c["name"])}</h2></div>
+  <ul class="person-grid">{"".join(committee_person(p) for p in c["members"])}</ul>
+</section>""" for i, c in enumerate(committees, 1))
+    body = f"""
+{page_hero("Committees", "Council work", "")}
+<section class="section">
+  <div class="container">
+    <p class="lead">MRAC committees bring together council members and experts from universities, government, industry, and civil society to develop the Council's policy positions in each area.</p>
+{sections}
+  </div>
+</section>
+"""
+    return page("Committees - Maryland Responsible AI Council", body,
+                description="MRAC committees and their members")
 
 
 def build_meetings():
@@ -371,12 +406,13 @@ def main():
     shutil.copytree(ROOT / "assets", OUT / "assets")
     (OUT / ".nojekyll").write_text("")
     (OUT / "index.html").write_text(build_index())
+    (OUT / "committees.html").write_text(build_committees())
     (OUT / "meetings.html").write_text(build_meetings())
     (OUT / "education.html").write_text(build_education())
     (OUT / "404.html").write_text(build_404())
     for m in members:
         (OUT / "members" / f'{m["slug"]}.html').write_text(build_member(m))
-    print(f"Built {3 + len(members)} pages into {OUT}")
+    print(f"Built {5 + len(members)} pages into {OUT}")
 
     if "--serve" in sys.argv:
         import functools, http.server

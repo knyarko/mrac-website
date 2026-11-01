@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Public Sector Applications and Government Services",
+    "members": [
+      { "name": "Peter Viechnicki", "role": "Co-chair", "affiliation": "Technology Resource Experts, LLC" },
+      { "name": "Sherif Elsafty", "role": "Co-chair", "affiliation": "VisionEighty Consulting LLC" },
+      { "name": "Balaji Padmanabhan", "role": "Member", "affiliation": "University of Maryland, College Park — Robert H. Smith School of Business" },
+      { "name": "Darren Cambridge", "role": "Member", "affiliation": "University of Maryland, College Park — TRAILS" },
+      { "name": "Katie Shilton", "role": "Member", "affiliation": "University of Maryland, College Park" },
+      { "name": "Jie Chen", "role": "Member", "affiliation": "University of Maryland, College Park — School of Public Health" },
+      { "name": "Gregory Maly", "role": "Member", "affiliation": "The Outlaw Ocean Project" },
+      { "name": "Kofi Nyarko", "role": "Council Chair (ex officio)", "affiliation": "Morgan State University — CEAMLS" }
+    ]
+  },
+  {
+    "name": "Education & Workforce Development",
+    "members": [
+      { "name": "Wayne L. Bethea", "role": "Chair", "affiliation": "Johns Hopkins University Applied Physics Laboratory" },
+      { "name": "Marilyn Fitzpatrick", "role": "Member", "affiliation": "Prince George's County Public Schools" },
+      { "name": "Quiana Bannerman", "role": "Member", "affiliation": "Maryland State Department of Education" },
+      { "name": "Kent Malwitz", "role": "Member", "affiliation": "UMBC Training Centers" },
+      { "name": "Valerie Riggs", "role": "Member", "affiliation": "Morgan State University" },
+      { "name": "Vahid Heydari", "role": "Member", "affiliation": "Morgan State University" },
+      { "name": "William Mapp", "role": "Member", "affiliation": "Morgan State University" },
+      { "name": "Kofi Nyarko", "role": "Council Chair (ex officio)", "affiliation": "Morgan State University — CEAMLS" }
+    ]
+  },
+  {
+    "name": "Business, Commerce, and Financial Services",
+    "members": [
+      { "name": "Najam Hassan", "role": "Co-chair", "affiliation": "University of Maryland Global Campus" },
+      { "name": "Sherif Elsafty", "role": "Member", "affiliation": "VisionEighty Consulting LLC" },
+      { "name": "Matthew Kilbane", "role": "Member", "affiliation": "Athena's Zephyr Consulting LLC; Tugend, LLC" },
+      { "name": "Brett Smith", "role": "Member", "affiliation": "U.S. Department of the Treasury" },
+      { "name": "Jacqueline Cooper", "role": "Member", "affiliation": "Maryland Blockchain Association; Blockchain Legal Institute" },
+      { "name": "Kofi Nyarko", "role": "Council Chair (ex officio)", "affiliation": "Morgan State University — CEAMLS" }
+    ]
+  },
+  {
+    "name": "Law, Civil Rights, and Society",
+    "members": [
+      { "name": "Sherif Elsafty", "role": "Chair", "affiliation": "VisionEighty Consulting LLC" },
+      { "name": "Betty Nyamekye-Odum", "role": "Member", "affiliation": "Morgan State University" },
+      { "name": "Virginia Byrne", "role": "Member", "affiliation": "Morgan State University" },
+      { "name": "Kofi Nyarko", "role": "Council Chair (ex officio)", "affiliation": "Morgan State University — CEAMLS" }
+    ]
+  }
+]
