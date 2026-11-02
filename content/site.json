@@ -63,7 +63,12 @@
       "icon": "chart-line"
     }
   ],
-  "meetings": [],
+  "meetings": [
+    { "date": "Nov 2, 2026", "title": "General Meeting", "description": "Virtual (Zoom) · By invitation only" },
+    { "date": "Nov 16, 2026", "title": "Core Council Meeting", "description": "Virtual (Zoom) · By invitation only" },
+    { "date": "Dec 7, 2026", "title": "General Meeting", "description": "Virtual (Zoom) · By invitation only" },
+    { "date": "Dec 21, 2026", "title": "Core Council Meeting", "description": "Virtual (Zoom) · By invitation only" }
+  ],
   "recommendations": [
     {
       "title": "Responsible Use of AI in Maryland Public Benefits Programs",
