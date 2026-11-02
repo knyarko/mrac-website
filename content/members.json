@@ -132,5 +132,17 @@
     "bio": [
       "Dr. Raff is the Director of Emerging AI at Booz Allen Hamilton, where he leads the firm’s machine learning research group. His work involves government and commercial needs that cannot be satisfied by existing solutions, requiring domain understanding combined with technical insight and invention. Dealing with problems in healthcare, finance, cybersecurity, and national security, these issues often involve active and motivated adversaries who seek to subvert or compromise solutions, making robustness and security in solutions a requirement for efficacy. Dr. Raff’s work has led to over 125 peer-reviewed articles, six Best Paper awards, and elevation to Senior Member status in the IEEE and AAAI professional communities."
     ]
+  },
+  {
+    "slug": "wayne-bethea",
+    "name": "Wayne L. Bethea",
+    "affiliation": "Johns Hopkins University Applied Physics Laboratory",
+    "role": "",
+    "group": "council",
+    "image": "assets/img/members/wayne-bethea.jpg",
+    "bio": [
+      "Dr. Wayne L. Bethea is a senior scientist at Johns Hopkins University Applied Physics Laboratory doing research and development in Intelligent Systems, Artificial Intelligence, and autonomous systems with over 25 years of experience leading advanced research, technology strategy, and multidisciplinary engineering efforts. Recognized for translating emerging technologies into operational capabilities supporting national security, aerospace, and complex enterprise systems. Extensive experience directing research portfolios, building high-performing technical teams, establishing strategic partnerships across government, academia, and industry, and securing competitive research funding.",
+      "Areas of expertise include artificial intelligence, knowledge representation and knowledge graphs, semantic technologies, digital engineering, explainable AI, human-machine teaming, systems engineering, and enterprise decision intelligence."
+    ]
   }
 ]
