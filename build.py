@@ -4,12 +4,14 @@
 Usage: python3 build.py            # build into ./_site
        python3 build.py --serve    # build, then serve at http://localhost:8000
 """
+import calendar
 import hashlib
 import html
 import json
 import re
 import shutil
 import sys
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -345,12 +347,36 @@ def build_committees():
                 description="MRAC committees and their members")
 
 
+def fmt_date(d):
+    return f"{d:%b} {d.day}, {d.year}"
+
+
+def upcoming_meetings(today=None):
+    """Recurring meetings (Nth weekday of each month) from today through the end of the schedule window,
+    plus any one-off entries in site["meetings"], minus dates listed under "skip". Past meetings drop off."""
+    today = today or date.today()
+    sched = site.get("meeting_schedule") or {}
+    skip = {datetime.strptime(x, "%b %d, %Y").date() for x in sched.get("skip", [])}
+    out = []
+    y, m = today.year, today.month
+    for _ in range(sched.get("months", 0)):
+        for sr in sched.get("series", []):
+            wd = list(calendar.day_name).index(sr["weekday"])
+            days = [d for d in calendar.Calendar().itermonthdates(y, m) if d.month == m and d.weekday() == wd]
+            out.append({"date": days[sr["week"] - 1], "title": sr["title"], "description": sched.get("description", "")})
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+    for x in site["meetings"]:
+        out.append({**x, "date": datetime.strptime(x["date"], "%b %d, %Y").date()})
+    return sorted((x for x in out if x["date"] >= today and x["date"] not in skip), key=lambda x: x["date"])
+
+
 def build_meetings():
-    if site["meetings"]:
+    upcoming = upcoming_meetings()
+    if upcoming:
         meetings = "".join(
-            f'<li><time>{e(x["date"])}</time><div><strong>{e(x["title"])}</strong>'
+            f'<li><time datetime="{x["date"].isoformat()}">{fmt_date(x["date"])}</time><div><strong>{e(x["title"])}</strong>'
             + (f'<p>{e(x["description"])}</p>' if x.get("description") else "") + "</div></li>"
-            for x in site["meetings"]
+            for x in upcoming
         )
         meetings = f'<ul class="listing">{meetings}</ul>'
     else:

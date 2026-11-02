@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "0 10 1 * *" # 1st of each month, so the meeting list rolls forward
 
 permissions:
   contents: read

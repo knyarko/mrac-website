@@ -12,10 +12,12 @@ All text lives in `content/` — no HTML editing needed for routine updates:
 
 Headshots go in `assets/img/members/`. The header and lighthouse photos are set under `photos` in `site.json` (Unsplash License; credits are shown in the footer). Keep large photos under ~700 KB. In a bio, a short line without ending punctuation becomes a heading, and lines starting with `– ` become a bulleted list.
 
-To add a meeting, append to `meetings` in `site.json`:
+Meetings are generated from `meeting_schedule` in `site.json`: each series is the Nth weekday of the month (General Meeting on the 1st Monday, Core Council Meeting on the 3rd). The site lists meetings from the build date through the end of next month (`"months": 2`), and past meetings drop off. The deploy workflow rebuilds on the 1st of every month, so the list rolls forward on its own.
+
+To cancel one occurrence (a holiday, say), add its date to `skip`. To add a one-off meeting, append to `meetings`:
 
 ```json
-{ "date": "Jan 15, 2027", "title": "Quarterly Council Meeting", "description": "Virtual, 10am–12pm" }
+{ "date": "Jan 15, 2027", "title": "Special Session", "description": "Virtual (Zoom) · By invitation only" }
 ```
 
 ## Preview locally
